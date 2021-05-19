@@ -7,4 +7,6 @@
     <% else %>
     <p><%=  @restaurant.phone_number%></p>
     <% end %>
+
+  <%= link_to 'Write a Review', new_restaurant_review_path(@restaurant) %>
 </div>
