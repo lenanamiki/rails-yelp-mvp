@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-lg">
   <h3><%= @restaurant.name %></h3>
     <p><em><%= @restaurant.category %></em></p>
     <p><%= @restaurant.address %></p>
@@ -9,4 +9,7 @@
     <% end %>
 
   <%= link_to 'Write a Review', new_restaurant_review_path(@restaurant) %>
+</div>
+
+
 </div>
